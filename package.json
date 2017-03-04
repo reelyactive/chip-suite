@@ -1,0 +1,30 @@
+{
+  "name": "chip-suite",
+  "version": "0.1.0",
+  "description": "Our full open source software suite tailored for the CHIP Pro. We believe in an open Internet of Things.",
+  "main": "chip-suite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/chip-suite.git"
+  },
+  "keywords": [
+    "reelyActive",
+    "CHIP Pro",
+    "IoT",
+    "RTLS",
+    "BLE",
+    "sniffer"
+  ],
+  "dependencies": {
+    "hlc-server": ">=0.5.11",
+    "bluetooth-hci-socket": ">=0.5.0",
+    "serialport": ">=4.0.0"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
